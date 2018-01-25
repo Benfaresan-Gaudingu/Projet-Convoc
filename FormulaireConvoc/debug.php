@@ -12,7 +12,7 @@ $bdd = new Model;
 //$test = $bdd->returnStudentInfo('cambaya');
 
 echo "fsedij";
-
+ 
 //3print_r($test);
 
 ?>
