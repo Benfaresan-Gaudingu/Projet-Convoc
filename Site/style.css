@@ -1,0 +1,27 @@
+#myModal{
+    border: ridge;
+    border-color: blue;
+}
+textarea{
+    border: ridge 1px;
+    border-color: #7ab5d3;
+}
+#flex{
+    display: flex;
+}
+#divFlex2{
+    padding-left: 5%;
+}
+.radio{
+    border-bottom: ridge black 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.radioChoix {
+    font-size: smaller;
+    margin-left: 10px;
+}
+
+

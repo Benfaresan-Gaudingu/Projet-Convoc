@@ -1,0 +1,111 @@
+<html lang="fr">
+<head>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+<body>
+
+
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Remplissez le formulaire</h3>
+    </div>
+
+    <!-- Body du modal, ici que se retrouvera le formulaire -->
+    <div class="modal-body">
+
+        <!--
+        <form class="form-horizontal">
+
+            <div class="control-group">
+                <label class="control-label" for="inputEmail">Elève concerné</label>
+                <div class="controls">
+                    <input type="text" id="inputEmail" placeholder="Nom et prénom">
+                </div>
+            </div>
+
+        </form>
+        -->
+        <form class="form-horizontal">
+            <div id="flex">
+
+                <div id="divFlex">
+                    <div class="control-group">
+
+                        <input type="text" id="" placeholder="Nom et prénom" />
+
+
+                    </div>
+
+                    <div class="control-group">
+
+                        <input type="text" placeholder="classe"/>
+
+                    </div>
+
+                    <div class="control-group">
+
+                        <input type="text" placeholder="Convoqué par"/>
+
+                    </div>
+
+                    <div class="control-group">
+
+                        <textarea rows="3" placeholder="Motif..."></textarea>
+
+                    </div>
+
+                    <div class="control-group">
+
+                        <textarea rows="3" placeholder="Travail à effectuer..."></textarea>
+
+                    </div>
+
+                    <div class="control-group">
+
+                        <button type="submit" class="btn">Envoyer</button>
+
+                    </div>
+                </div>
+
+                <div id="divFlex2">
+                    <p>
+                        <label class="radio"><input type="radio" name="typeRetenue" id="retenue" value="retenue">Retenue</label>
+                        <!-- TODO : mettre une value par defaut cohérente -->
+                        <input size="16" type="text" value="2017-06-15 14:45" readonly class="form_datetime">
+
+                        <label class="radio"><input type="radio" name="typeRetenue" id="retenueTardives" value="tardives">Retenue (arrivées tardives)</label>
+                        <label class="radio"><input type="radio" name="typeRetenue" id="compensation" value="compensation">Compensation</label>
+                        <label class="radio"><input type="radio" name="typeRetenue" id="retenueDiriger" value="diriger">Retenue(études dirigées)</label>
+                    </p>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    0
+
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button class="btn btn-primary">Save changes</button>
+    </div>
+</div>
+<script src="bootstrap-datetimepicker-master/sample%20in%20bootstrap%20v2/jquery/jquery-1.8.3.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.min.js"></script>
+<script src="bootstrap-datetimepicker-master/js/locales/bootstrap-datetimepicker.fr.js"></script>
+
+
+<script type="text/javascript">
+    $(".form_datetime").datetimepicker({format: 'yyyy-mm-dd hh:ii'});
+</script>
+
+
+
+
+</body>
