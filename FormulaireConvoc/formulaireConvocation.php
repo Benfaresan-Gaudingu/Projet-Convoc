@@ -125,7 +125,7 @@ summary : Page contenant le formulaire à remplir pou la génération du pdf
 
                                 </div>
 
-                                <input type="text" placeholder="pour une durée de" id="tarDuree" name="tarDuree">
+                                <input type="text" placeholder="pour une durée de" id="dure" name="dure">
                             </div>
 
                         </div>
@@ -142,7 +142,7 @@ summary : Page contenant le formulaire à remplir pou la génération du pdf
 
                                 </div>
 
-                                <input type="text" placeholder="pour une durée de" id="tarDuree" name="tarDuree">
+                                <input type="text" placeholder="pour une durée de" id="dure" name="dure">
                             </div>
 
                         </div>
@@ -159,7 +159,7 @@ summary : Page contenant le formulaire à remplir pou la génération du pdf
 
                                 </div>
 
-                                <input type="text" placeholder="pour une durée de" id="tarDuree" name="tarDuree">
+                                <input type="text" placeholder="pour une durée de" id="dure" name="dure">
                             </div>
 
                         </div>

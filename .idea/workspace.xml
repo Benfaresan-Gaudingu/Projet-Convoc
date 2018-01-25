@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="8671239d-eef5-41e8-abfe-efbbd4daf36b" name="Default" comment="" />
+=======
+    <list default="true" id="8671239d-eef5-41e8-abfe-efbbd4daf36b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FormulaireConvoc/formulaireConvocation.php" afterPath="$PROJECT_DIR$/FormulaireConvoc/formulaireConvocation.php" />
+    </list>
+>>>>>>> 1927315b2cd20f0773fc5bf37a0ad81b5959fbfa
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +71,7 @@
       <file leaf-file-name="formulaireConvocation.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FormulaireConvoc/formulaireConvocation.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="731">
               <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding />
@@ -77,6 +84,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+            <state relative-caret-position="527">
+              <caret line="121" column="54" lean-forward="false" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
+>>>>>>> 1927315b2cd20f0773fc5bf37a0ad81b5959fbfa
               <folding />
             </state>
           </provider>
@@ -102,7 +113,11 @@
       <file leaf-file-name="writeInfoInPDF.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FormulaireConvoc/fpdf/writeInfoInPDF.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="323">
+=======
+            <state relative-caret-position="288">
+>>>>>>> 1927315b2cd20f0773fc5bf37a0ad81b5959fbfa
               <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding />
             </state>
@@ -118,6 +133,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/FormulaireConvoc/fpdf/writeInfoInPDF.php" />
+        <option value="$PROJECT_DIR$/FormulaireConvoc/formulaireConvocation.php" />
       </list>
     </option>
   </component>
@@ -226,12 +242,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516866061568</updated>
-      <workItem from="1516866062804" duration="2938000" />
+      <workItem from="1516866062804" duration="5653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="3292000" />
+=======
+    <option name="totallyTimeSpent" value="5653000" />
+>>>>>>> 1927315b2cd20f0773fc5bf37a0ad81b5959fbfa
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -546,8 +566,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FormulaireConvoc/formulaireConvocation.php">
+    <entry file="file://$PROJECT_DIR$/FormulaireConvoc/insertData.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2057">
           <caret line="121" column="54" lean-forward="false" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
           <folding />
@@ -654,20 +675,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100351">
           <caret line="5903" column="0" lean-forward="false" selection-start-line="5903" selection-start-column="0" selection-end-line="5903" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FormulaireConvoc/insertData.php">
-      <provider selected="true" editor-type-id="text-editor">
+=======
         <state relative-caret-position="391">
           <caret line="28" column="83" lean-forward="false" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
+>>>>>>> 1927315b2cd20f0773fc5bf37a0ad81b5959fbfa
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FormulaireConvoc/fpdf/writeInfoInPDF.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FormulaireConvoc/formulaireConvocation.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="323">
           <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding />
@@ -678,6 +704,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+=======
+        <state relative-caret-position="527">
+          <caret line="121" column="54" lean-forward="false" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
+>>>>>>> 1927315b2cd20f0773fc5bf37a0ad81b5959fbfa
           <folding />
         </state>
       </provider>
