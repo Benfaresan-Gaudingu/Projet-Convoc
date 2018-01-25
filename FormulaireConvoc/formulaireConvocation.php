@@ -99,7 +99,7 @@ summary : Page contenant le formulaire à remplir pou la génération du pdf
                         <div id="retenue">
                             <label class="radio"><input onclick="hideOthers(1)" type="radio" name="typeRetenue" id="retenue" value="retenue">Retenue</label>
                             <div class="toHide" id="1">
-                                <label class="radioChoix"><input onclick="retenueRendre()" type="radio" name="choix" id="rendre" value="rendre" checked="checked">Rendre un travail</label>
+                                <label class="radioChoix"><input onclick="retenueRendre()" type="radio" name="choix" id="rendre" value="rendre">Rendre un travail</label>
                                 <label class="radioChoix"><input onclick="retenuePresenter()" type="radio" name="choix" id="convoc" value="convoc">Convocation</label>
                                 <!-- TODO : mettre une value par defaut cohérente (Dates) -->
                                 <div class="input-append date form_datetime" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
@@ -125,7 +125,7 @@ summary : Page contenant le formulaire à remplir pou la génération du pdf
 
                                 </div>
 
-                                <input type="text" placeholder="pour une durée de" id="tarDuree" name="tarDuree">
+                                <input type="text" placeholder="pour une durée de" id="dure" name="dure">
                             </div>
 
                         </div>
@@ -142,7 +142,7 @@ summary : Page contenant le formulaire à remplir pou la génération du pdf
 
                                 </div>
 
-                                <input type="text" placeholder="pour une durée de" id="tarDuree" name="tarDuree">
+                                <input type="text" placeholder="pour une durée de" id="dure" name="dure">
                             </div>
 
                         </div>
@@ -159,7 +159,7 @@ summary : Page contenant le formulaire à remplir pou la génération du pdf
 
                                 </div>
 
-                                <input type="text" placeholder="pour une durée de" id="tarDuree" name="tarDuree">
+                                <input type="text" placeholder="pour une durée de" id="dure" name="dure">
                             </div>
 
                         </div>
