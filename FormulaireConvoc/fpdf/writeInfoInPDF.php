@@ -62,7 +62,7 @@ switch($typeRetenue){
 
             $pdf->Text(67, 64.8, $day . '.' . $month . '.' . $year);
             $pdf->Text(98, 64.8, $hour);
-            $pdf->Text(116, 64.8, $minutes);
+            $pdf->Text(108, 64.8, $minutes);
             $pdf->Text(130, 64.8, $salle);
 
             break;
@@ -124,7 +124,7 @@ switch($typeRetenue){
 	break;
 }
 
-$pdf->Output('ConvocationRetenue.pdf', "D");
+$pdf->Output('I', 'ConvocationRetenue.pdf');
 
 
 //04 September 2017 - 06:05 pm
